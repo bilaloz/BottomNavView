@@ -10,8 +10,10 @@ import android.view.MenuItem;
 
 import gelecegiyazanlar.com.gyk401.R;
 import gelecegiyazanlar.com.gyk401.fragments.DietListFragment;
+import gelecegiyazanlar.com.gyk401.fragments.DiyetFragment;
 import gelecegiyazanlar.com.gyk401.fragments.HomeFragment;
 import gelecegiyazanlar.com.gyk401.fragments.HealthFragment;
+import gelecegiyazanlar.com.gyk401.fragments.SaglikFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,10 +46,10 @@ public class MainActivity extends AppCompatActivity {
                     selectedFragment = new HomeFragment();
                     break;
                 case R.id.navigation_health:
-                    selectedFragment = new HealthFragment();
+                    selectedFragment = new SaglikFragment();
                     break;
                 case R.id.navigation_diet:
-                    selectedFragment = new DietListFragment();
+                    selectedFragment = new DiyetFragment();
                     break;
             }
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();

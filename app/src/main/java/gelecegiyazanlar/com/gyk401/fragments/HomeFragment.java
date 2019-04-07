@@ -73,6 +73,8 @@ public class HomeFragment extends Fragment {
         }
     }
 
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -95,9 +97,9 @@ public class HomeFragment extends Fragment {
 
     private void calculate() {
 
-        if (userWeightEt.getText().toString().length() > 0 && userLengthtEt.getText().toString().length() > 0) {
-
-
+        if (userWeightEt.getText().toString().length() > 0 &&
+                userLengthtEt.getText().toString().length() > 0)
+        {
             float userWeight =  Float.parseFloat(userWeightEt.getText().toString());
             float userLength = Float.parseFloat(userLengthtEt.getText().toString());
             if(userLength>0){
@@ -119,7 +121,8 @@ public class HomeFragment extends Fragment {
             }
 
             userResultTv.setText("Vücut kitle endeksiniz: " + result + "\n" + resultDescription);
-        }}else {
+        }
+        }else {
 
             final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
             builder.setTitle("Hata!");

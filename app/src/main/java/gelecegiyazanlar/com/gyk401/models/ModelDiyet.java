@@ -1,4 +1,4 @@
-package gelecegiyazanlar.com.gyk401;
+package gelecegiyazanlar.com.gyk401.models;
 
 public class ModelDiyet {
 

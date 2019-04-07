@@ -12,8 +12,8 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
-import gelecegiyazanlar.com.gyk401.AdapterDiyet;
-import gelecegiyazanlar.com.gyk401.ModelDiyet;
+import gelecegiyazanlar.com.gyk401.adapters.AdapterDiyet;
+import gelecegiyazanlar.com.gyk401.models.ModelDiyet;
 import gelecegiyazanlar.com.gyk401.R;
 
 public class DiyetFragment extends Fragment {

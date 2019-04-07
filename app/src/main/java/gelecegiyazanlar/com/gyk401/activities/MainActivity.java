@@ -9,10 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import gelecegiyazanlar.com.gyk401.R;
-import gelecegiyazanlar.com.gyk401.fragments.DietListFragment;
 import gelecegiyazanlar.com.gyk401.fragments.DiyetFragment;
 import gelecegiyazanlar.com.gyk401.fragments.HomeFragment;
-import gelecegiyazanlar.com.gyk401.fragments.HealthFragment;
 import gelecegiyazanlar.com.gyk401.fragments.SaglikFragment;
 
 public class MainActivity extends AppCompatActivity {
